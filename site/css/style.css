@@ -6,15 +6,23 @@ h1 {
     text-align: center;
 }
 section {
-    height: 250px;
+    height: 200px;
     background-color: grey;
+    position: relative;
+    border: 3px solid yellow;
+    margin: 2px;
+    padding: 15px;
 }
-p {
-    width: 90%;
-    margin-right: auto;
-    margin-left: auto;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
+.menu-items {
+    border: 1px solid red;
+}
+.title {
+    margin: auto;
+    padding: 2px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border: 1px solid blue;
 }
 /******DESKTOP******/
 @media (min-width: 992px) {
